@@ -53,7 +53,7 @@ class Game {
 
         cars[index-1].x=x;
         cars[index-1].y=y;
-        if (plr === player.index){
+        if (index === player.index){
           cars[index-1].shapeColor= "red";
           camera.position.x=displayWidth/2;
            camera.position.y=cars[index-1].y;
